@@ -4,6 +4,15 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <LangVersion>12</LangVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Domain\Domain.csproj" />
+        <ProjectReference Include="..\Infrastructures\Infrastructures.csproj" />
+        <ProjectReference Include="..\..\Core\src\Core.Domain\Core.Domain.csproj" />
+        <ProjectReference Include="..\..\Core\src\Core.Infrastructure\Core.Infrastructure.csproj" />
+        <ProjectReference Include="..\..\Core\src\Core.Web\Core.Web.csproj" />
+    </ItemGroup>
 
 </Project>
